@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from 'react';
-import { View, Text, TextInput, FlatList } from 'react-native';
+import React, { useState, useEffect } from 'eact';
+import { View, Text, TextInput, FlatList } from 'eact-native';
 import axios from 'axios';
 
-const apikey = 'http://www.omdbapi.com/?i=tt3896198&apikey=595d589a';
+const apikey = '595d589a';
 
 function BuscaScreen() {
   const [searchQuery, setSearchQuery] = useState('');

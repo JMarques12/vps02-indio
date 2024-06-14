@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, FlatList } from 'react-native';
+import { View, Text, FlatList, Image } from 'react-native';
 
 const filmesIndicados = [
   { id: 1, title: 'Filme 1', poster: 'https://example.com/poster1.jpg' },
@@ -15,10 +15,11 @@ function FilmesQueIndicoScreen() {
       <Text>Filmes que indico</Text>
       <FlatList
         data={filmesIndicados}
+        keyExtractor={(item) => item.id.toString()}
         renderItem={({ item }) => (
-          <View>
-            <Text>{item.title}</Text>
-            <Image source={{ uri: item.poster }} />
+          <View style={{ padding: 16, borderBottomWidth: 1, borderBottomColor: '#ccc' }}>
+            <Text style={{ fontSize: 18, fontWeight: 'bold' }}>{item.title}</Text>
+            <Image source={{ uri: item.poster }} style={{ width: 100, height: 150 }} />
           </View>
         )}
       />
