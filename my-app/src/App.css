@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+
+.tab-bar {
+  background-color: #333;
+  padding: 10px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tab-bar-item {
+  flex: 1;
+  padding: 10px;
+  border-bottom-width: 2px;
+  border-bottom-color: #666;
+}
+
+.tab-bar-item-active {
+  border-bottom-color: #fff;
+}
+
+.screen {
+  flex: 1;
+  padding: 20px;
+}
+
+.screen-header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+
+.destaques-list {
+  flex: 1;
+  padding: 10px;
+}
+
+.destaques-item {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-bottom-width: 1px;
+  border-bottom-color: #ccc;
+}
+
+.destaques-item-image {
+  width: 100px;
+  height: 150px;
+  margin-right: 10px;
+}
+
+.destaques-item-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+.busca-input {
+  height: 40px;
+  padding: 10px;
+  border-width: 1px;
+  border-color: #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.busca-button {
+  height: 40px;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.busca-list {
+  flex: 1;
+  padding: 10px;
+}
+
+.busca-item {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-bottom-width: 1px;
+  border-bottom-color: #ccc;
+}
+
+.busca-item-image {
+  width: 100px;
+  height: 150px;
+  margin-right: 10px;
+}
+
+.busca-item-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+.filmes-que-indico-list {
+  flex: 1;
+  padding: 10px;
+}
+
+.filmes-que-indico-item {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-bottom-width: 1px;
+  border-bottom-color: #ccc;
+}
+
+.filmes-que-indico-item-image {
+  width: 100px;
+  height: 150px;
+  margin-right: 10px;
+}
+
+.filmes-que-indico-item-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Contato Screen */
+
+.contato-text {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.contato-email {
+  font-size: 16px;
+  color: #337ab7;
+  text-decoration: underline;
+}

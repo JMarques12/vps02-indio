@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@react-navigation/native": "^6.1.17",
+    "axios": "^1.7.2",
+    "react-native": "^0.74.2",
+    "react-native-image": "^0.1.1",
+    "react-navigation": "^5.0.0"
+  },
+  "packageManager": "yarn@3.6.4"
+}
